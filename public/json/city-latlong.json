@@ -1,0 +1,1106 @@
+{
+	"Maharashtra": {
+		"2006": {
+			"Total": "6129",
+			"Fatal": "434",
+			"Killed": "498",
+			"Injured": "4621"
+		},
+		"2007": {
+			"Total": "6900",
+			"Fatal": "549",
+			"Killed": "640",
+			"Injured": "3970"
+		},
+		"2008": {
+			"Total": "6201",
+			"Fatal": "575",
+			"Killed": "670",
+			"Injured": "4389"
+		},
+		"2009": {
+			"Total": "6080",
+			"Fatal": "565",
+			"Killed": "670",
+			"Injured": "4379"
+		},
+		"2010": {
+			"Total": "7282",
+			"Fatal": "735",
+			"Killed": "804",
+			"Injured": "4805"
+		},
+		"2011": {
+			"Total": "5392",
+			"Fatal": "634",
+			"Killed": "754",
+			"Injured": "4264"
+		},
+		"2012": {
+			"Total": "5208",
+			"Fatal": "658",
+			"Killed": "769",
+			"Injured": "4098"
+		},
+		"lat": "18.975",
+		"lng": "72.825833"
+	},
+	"Delhi": {
+		"2006": {
+			"Total": "303",
+			"Fatal": "44",
+			"Killed": "43",
+			"Injured": "305"
+		},
+		"2007": {
+			"Total": "253",
+			"Fatal": "32",
+			"Killed": "32",
+			"Injured": "309"
+		},
+		"2008": {
+			"Total": "250",
+			"Fatal": "29",
+			"Killed": "29",
+			"Injured": "267"
+		},
+		"2009": {
+			"Total": "207",
+			"Fatal": "31",
+			"Killed": "32",
+			"Injured": "233"
+		},
+		"2010": {
+			"Total": "131",
+			"Fatal": "20",
+			"Killed": "20",
+			"Injured": "NA"
+		},
+		"2011": {
+			"Total": "166",
+			"Fatal": "34",
+			"Killed": "34",
+			"Injured": "196"
+		},
+		"2012": {
+			"Total": "155",
+			"Fatal": "27",
+			"Killed": "27",
+			"Injured": "171"
+		},
+		"lat": "28.666667",
+		"lng": "77.216667"
+	},
+	"Karnataka": {
+		"2006": {
+			"Total": "3358",
+			"Fatal": "352",
+			"Killed": "389",
+			"Injured": "5183"
+		},
+		"2007": {
+			"Total": "3852",
+			"Fatal": "478",
+			"Killed": "529",
+			"Injured": "6591"
+		},
+		"2008": {
+			"Total": "4132",
+			"Fatal": "453",
+			"Killed": "506",
+			"Injured": "5622"
+		},
+		"2009": {
+			"Total": "3505",
+			"Fatal": "411",
+			"Killed": "465",
+			"Injured": "5472"
+		},
+		"2010": {
+			"Total": "3573",
+			"Fatal": "422",
+			"Killed": "478",
+			"Injured": "5659"
+		},
+		"2011": {
+			"Total": "3480",
+			"Fatal": "425",
+			"Killed": "480",
+			"Injured": "4775"
+		},
+		"2012": {
+			"Total": "3430",
+			"Fatal": "450",
+			"Killed": "485",
+			"Injured": "4575"
+		},
+		"lat": "12.983333",
+		"lng": "77.583333"
+	},
+	"Gujarat": {
+		"2006": {
+			"Total": "3269",
+			"Fatal": "389",
+			"Killed": "429",
+			"Injured": "3923"
+		},
+		"2007": {
+			"Total": "3540",
+			"Fatal": "419",
+			"Killed": "477",
+			"Injured": "4214"
+		},
+		"2008": {
+			"Total": "3613",
+			"Fatal": "479",
+			"Killed": "566",
+			"Injured": "4634"
+		},
+		"2009": {
+			"Total": "3550",
+			"Fatal": "457",
+			"Killed": "525",
+			"Injured": "4251"
+		},
+		"2010": {
+			"Total": "3330",
+			"Fatal": "560",
+			"Killed": "640",
+			"Injured": "4005"
+		},
+		"2011": {
+			"Total": "3237",
+			"Fatal": "583",
+			"Killed": "683",
+			"Injured": "3481"
+		},
+		"2012": {
+			"Total": "2750",
+			"Fatal": "533",
+			"Killed": "578",
+			"Injured": "3033"
+		},
+		"lat": "23.033333",
+		"lng": "72.616667"
+	},
+	"Tamil Nadu": {
+		"2006": {
+			"Total": "3559",
+			"Fatal": "498",
+			"Killed": "554",
+			"Injured": "4923"
+		},
+		"2007": {
+			"Total": "4657",
+			"Fatal": "489",
+			"Killed": "513",
+			"Injured": "6419"
+		},
+		"2008": {
+			"Total": "3299",
+			"Fatal": "456",
+			"Killed": "491",
+			"Injured": "4480"
+		},
+		"2009": {
+			"Total": "3335",
+			"Fatal": "476",
+			"Killed": "421",
+			"Injured": "3605"
+		},
+		"2010": {
+			"Total": "2899",
+			"Fatal": "468",
+			"Killed": "496",
+			"Injured": "3697"
+		},
+		"2011": {
+			"Total": "2846",
+			"Fatal": "402",
+			"Killed": "444",
+			"Injured": "4148"
+		},
+		"2012": {
+			"Total": "3260",
+			"Fatal": "377",
+			"Killed": "390",
+			"Injured": "4475"
+		},
+		"lat": "13.083333",
+		"lng": "80.283333"
+	},
+	"West Bengal": {
+		"2006": {
+			"Total": "386",
+			"Fatal": "98",
+			"Killed": "103",
+			"Injured": "502"
+		},
+		"2007": {
+			"Total": "425",
+			"Fatal": "66",
+			"Killed": "168",
+			"Injured": "410"
+		},
+		"2008": {
+			"Total": "551",
+			"Fatal": "170",
+			"Killed": "113",
+			"Injured": "591"
+		},
+		"2009": {
+			"Total": "385",
+			"Fatal": "96",
+			"Killed": "113",
+			"Injured": "398"
+		},
+		"2010": {
+			"Total": "581",
+			"Fatal": "181",
+			"Killed": "165",
+			"Injured": "587"
+		},
+		"2011": {
+			"Total": "497",
+			"Fatal": "107",
+			"Killed": "110",
+			"Injured": "569"
+		},
+		"2012": {
+			"Total": "303",
+			"Fatal": "83",
+			"Killed": "85",
+			"Injured": "329"
+		},
+		"lat": "22.569722",
+		"lng": "88.369722"
+	},
+	"Rajasthan": {
+		"2006": {
+			"Total": "707",
+			"Fatal": "130",
+			"Killed": "180",
+			"Injured": "912"
+		},
+		"2007": {
+			"Total": "655",
+			"Fatal": "128",
+			"Killed": "134",
+			"Injured": "808"
+		},
+		"2008": {
+			"Total": "704",
+			"Fatal": "147",
+			"Killed": "178",
+			"Injured": "991"
+		},
+		"2009": {
+			"Total": "545",
+			"Fatal": "98",
+			"Killed": "111",
+			"Injured": "940"
+		},
+		"2010": {
+			"Total": "588",
+			"Fatal": "126",
+			"Killed": "112",
+			"Injured": "808"
+		},
+		"2011": {
+			"Total": "428",
+			"Fatal": "89",
+			"Killed": "94",
+			"Injured": "662"
+		},
+		"2012": {
+			"Total": "430",
+			"Fatal": "103",
+			"Killed": "85",
+			"Injured": "604"
+		},
+		"lat": "24.583333",
+		"lng": "86.85"
+	},
+	"Uttar Pradesh": {
+		"2006": {
+			"Total": "580",
+			"Fatal": "219",
+			"Killed": "262",
+			"Injured": "451"
+		},
+		"2007": {
+			"Total": "675",
+			"Fatal": "277",
+			"Killed": "336",
+			"Injured": "430"
+		},
+		"2008": {
+			"Total": "470",
+			"Fatal": "166",
+			"Killed": "275",
+			"Injured": "543"
+		},
+		"2009": {
+			"Total": "591",
+			"Fatal": "206",
+			"Killed": "296",
+			"Injured": "633"
+		},
+		"2010": {
+			"Total": "622",
+			"Fatal": "275",
+			"Killed": "327",
+			"Injured": "581"
+		},
+		"2011": {
+			"Total": "697",
+			"Fatal": "258",
+			"Killed": "447",
+			"Injured": "525"
+		},
+		"2012": {
+			"Total": "1038",
+			"Fatal": "300",
+			"Killed": "426",
+			"Injured": "830"
+		},
+		"lat": "26.85",
+		"lng": "80.916667"
+	},
+	"Madhya Pradesh": {
+		"2006": {
+			"Total": "1423",
+			"Fatal": "71",
+			"Killed": "85",
+			"Injured": "1986"
+		},
+		"2007": {
+			"Total": "1734",
+			"Fatal": "72",
+			"Killed": "105",
+			"Injured": "2156"
+		},
+		"2008": {
+			"Total": "1786",
+			"Fatal": "100",
+			"Killed": "101",
+			"Injured": "2226"
+		},
+		"2009": {
+			"Total": "1739",
+			"Fatal": "110",
+			"Killed": "122",
+			"Injured": "2016"
+		},
+		"2010": {
+			"Total": "1727",
+			"Fatal": "98",
+			"Killed": "108",
+			"Injured": "2026"
+		},
+		"2011": {
+			"Total": "2290",
+			"Fatal": "137",
+			"Killed": "160",
+			"Injured": "2474"
+		},
+		"2012": {
+			"Total": "2358",
+			"Fatal": "127",
+			"Killed": "146",
+			"Injured": "2570"
+		},
+		"lat": "23.266667",
+		"lng": "77.4"
+	},
+	"Bihar": {
+		"2006": {
+			"Total": "123",
+			"Fatal": "52",
+			"Killed": "56",
+			"Injured": "94"
+		},
+		"2007": {
+			"Total": "334",
+			"Fatal": "110",
+			"Killed": "112",
+			"Injured": "312"
+		},
+		"2008": {
+			"Total": "262",
+			"Fatal": "82",
+			"Killed": "91",
+			"Injured": "208"
+		},
+		"2009": {
+			"Total": "443",
+			"Fatal": "135",
+			"Killed": "142",
+			"Injured": "394"
+		},
+		"2010": {
+			"Total": "704",
+			"Fatal": "246",
+			"Killed": "258",
+			"Injured": "439"
+		},
+		"2011": {
+			"Total": "590",
+			"Fatal": "196",
+			"Killed": "272",
+			"Injured": "441"
+		},
+		"2012": {
+			"Total": "376",
+			"Fatal": "137",
+			"Killed": "146",
+			"Injured": "318"
+		},
+		"lat": "23.3",
+		"lng": "82.666667"
+	},
+	"Jammu and Kashmir": {
+		"2006": {
+			"Total": "171",
+			"Fatal": "12",
+			"Killed": "12",
+			"Injured": "147"
+		},
+		"2007": {
+			"Total": "178",
+			"Fatal": "14",
+			"Killed": "22",
+			"Injured": "234"
+		},
+		"2008": {
+			"Total": "170",
+			"Fatal": "12",
+			"Killed": "14",
+			"Injured": "254"
+		},
+		"2009": {
+			"Total": "174",
+			"Fatal": "19",
+			"Killed": "20",
+			"Injured": "212"
+		},
+		"2010": {
+			"Total": "224",
+			"Fatal": "16",
+			"Killed": "18",
+			"Injured": "243"
+		},
+		"2011": {
+			"Total": "200",
+			"Fatal": "11",
+			"Killed": "22",
+			"Injured": "82"
+		},
+		"2012": {
+			"Total": "176",
+			"Fatal": "14",
+			"Killed": "16",
+			"Injured": "42"
+		},
+		"lat": "30.216667",
+		"lng": "78.783333"
+	},
+	"Jharkhand": {
+		"2006": {
+			"Total": "188",
+			"Fatal": "62",
+			"Killed": "61",
+			"Injured": "197"
+		},
+		"2007": {
+			"Total": "204",
+			"Fatal": "73",
+			"Killed": "77",
+			"Injured": "193"
+		},
+		"2008": {
+			"Total": "137",
+			"Fatal": "46",
+			"Killed": "51",
+			"Injured": "144"
+		},
+		"2009": {
+			"Total": "228",
+			"Fatal": "62",
+			"Killed": "72",
+			"Injured": "237"
+		},
+		"2010": {
+			"Total": "292",
+			"Fatal": "87",
+			"Killed": "103",
+			"Injured": "346"
+		},
+		"2011": {
+			"Total": "240",
+			"Fatal": "90",
+			"Killed": "104",
+			"Injured": "284"
+		},
+		"2012": {
+			"Total": "288",
+			"Fatal": "98",
+			"Killed": "106",
+			"Injured": "337"
+		},
+		"lat": "23.35",
+		"lng": "85.333333"
+	},
+	"Andhra Pradesh": {
+		"2006": {
+			"Total": "6540",
+			"Fatal": "1545",
+			"Killed": "1255",
+			"Injured": "10155"
+		},
+		"2007": {
+			"Total": "6242",
+			"Fatal": "1459",
+			"Killed": "1196",
+			"Injured": "10246"
+		},
+		"2008": {
+			"Total": "7739",
+			"Fatal": "1580",
+			"Killed": "1958",
+			"Injured": "11095"
+		},
+		"2009": {
+			"Total": "6028",
+			"Fatal": "1463",
+			"Killed": "1230",
+			"Injured": "8984"
+		},
+		"2010": {
+			"Total": "7200",
+			"Fatal": "1629",
+			"Killed": "1882",
+			"Injured": "10717"
+		},
+		"2011": {
+			"Total": "7150",
+			"Fatal": "1546",
+			"Killed": "1583",
+			"Injured": "9879"
+		},
+		"2012": {
+			"Total": "6556",
+			"Fatal": "1488",
+			"Killed": "1630",
+			"Injured": "9163"
+		},
+		"lat": "16.516667",
+		"lng": "80.616667"
+	},
+	"Chhattisgarh": {
+		"2006": {
+			"Total": "319",
+			"Fatal": "21",
+			"Killed": "24",
+			"Injured": "307"
+		},
+		"2007": {
+			"Total": "159",
+			"Fatal": "21",
+			"Killed": "20",
+			"Injured": "140"
+		},
+		"2008": {
+			"Total": "295",
+			"Fatal": "36",
+			"Killed": "36",
+			"Injured": "378"
+		},
+		"2009": {
+			"Total": "250",
+			"Fatal": "23",
+			"Killed": "31",
+			"Injured": "255"
+		},
+		"2010": {
+			"Total": "323",
+			"Fatal": "29",
+			"Killed": "28",
+			"Injured": "387"
+		},
+		"2011": {
+			"Total": "345",
+			"Fatal": "30",
+			"Killed": "30",
+			"Injured": "342"
+		},
+		"2012": {
+			"Total": "333",
+			"Fatal": "33",
+			"Killed": "37",
+			"Injured": "338"
+		},
+		"lat": "30.316667",
+		"lng": "78.1"
+	},
+	"Assam": {
+		"2006": {
+			"Total": "205",
+			"Fatal": "36",
+			"Killed": "36",
+			"Injured": "224"
+		},
+		"2007": {
+			"Total": "187",
+			"Fatal": "45",
+			"Killed": "47",
+			"Injured": "258"
+		},
+		"2008": {
+			"Total": "218",
+			"Fatal": "33",
+			"Killed": "43",
+			"Injured": "299"
+		},
+		"2009": {
+			"Total": "257",
+			"Fatal": "54",
+			"Killed": "65",
+			"Injured": "274"
+		},
+		"2010": {
+			"Total": "342",
+			"Fatal": "72",
+			"Killed": "86",
+			"Injured": "550"
+		},
+		"2011": {
+			"Total": "280",
+			"Fatal": "58",
+			"Killed": "62",
+			"Injured": "396"
+		},
+		"2012": {
+			"Total": "286",
+			"Fatal": "57",
+			"Killed": "53",
+			"Injured": "422"
+		},
+		"lat": "26.183333",
+		"lng": "91.733333"
+	},
+	"Haryana": {
+		"2006": {
+			"Total": "376",
+			"Fatal": "104",
+			"Killed": "154",
+			"Injured": "286"
+		},
+		"2007": {
+			"Total": "453",
+			"Fatal": "124",
+			"Killed": "174",
+			"Injured": "341"
+		},
+		"2008": {
+			"Total": "457",
+			"Fatal": "127",
+			"Killed": "177",
+			"Injured": "356"
+		},
+		"2009": {
+			"Total": "472",
+			"Fatal": "134",
+			"Killed": "184",
+			"Injured": "354"
+		},
+		"2010": {
+			"Total": "443",
+			"Fatal": "131",
+			"Killed": "189",
+			"Injured": "304"
+		},
+		"2011": {
+			"Total": "440",
+			"Fatal": "137",
+			"Killed": "190",
+			"Injured": "295"
+		},
+		"2012": {
+			"Total": "389",
+			"Fatal": "120",
+			"Killed": "180",
+			"Injured": "275"
+		},
+		"lat": "27.6928",
+		"lng": "79.6766"
+	},
+	"Punjab": {
+		"2006": {
+			"Total": "99",
+			"Fatal": "40",
+			"Killed": "47",
+			"Injured": "115"
+		},
+		"2007": {
+			"Total": "96",
+			"Fatal": "47",
+			"Killed": "51",
+			"Injured": "94"
+		},
+		"2008": {
+			"Total": "95",
+			"Fatal": "49",
+			"Killed": "49",
+			"Injured": "95"
+		},
+		"2009": {
+			"Total": "100",
+			"Fatal": "39",
+			"Killed": "49",
+			"Injured": "122"
+		},
+		"2010": {
+			"Total": "120",
+			"Fatal": "78",
+			"Killed": "73",
+			"Injured": "77"
+		},
+		"2011": {
+			"Total": "193",
+			"Fatal": "111",
+			"Killed": "166",
+			"Injured": "162"
+		},
+		"2012": {
+			"Total": "200",
+			"Fatal": "134",
+			"Killed": "171",
+			"Injured": "171"
+		},
+		"lat": "23.9",
+		"lng": "78.433333"
+	},
+	"Orissa": {
+		"2006": {
+			"Total": "281",
+			"Fatal": "59",
+			"Killed": "80",
+			"Injured": "394"
+		},
+		"2007": {
+			"Total": "286",
+			"Fatal": "77",
+			"Killed": "79",
+			"Injured": "397"
+		},
+		"2008": {
+			"Total": "320",
+			"Fatal": "84",
+			"Killed": "88",
+			"Injured": "461"
+		},
+		"2009": {
+			"Total": "413",
+			"Fatal": "124",
+			"Killed": "133",
+			"Injured": "511"
+		},
+		"2010": {
+			"Total": "488",
+			"Fatal": "133",
+			"Killed": "154",
+			"Injured": "643"
+		},
+		"2011": {
+			"Total": "433",
+			"Fatal": "105",
+			"Killed": "122",
+			"Injured": "627"
+		},
+		"2012": {
+			"Total": "407",
+			"Fatal": "119",
+			"Killed": "150",
+			"Injured": "574"
+		},
+		"lat": "20.233333",
+		"lng": "85.833333"
+	},
+	"Kerala": {
+		"2006": {
+			"Total": "6735",
+			"Fatal": "291",
+			"Killed": "344",
+			"Injured": "8058"
+		},
+		"2007": {
+			"Total": "5522",
+			"Fatal": "225",
+			"Killed": "243",
+			"Injured": "6843"
+		},
+		"2008": {
+			"Total": "5163",
+			"Fatal": "236",
+			"Killed": "253",
+			"Injured": "6244"
+		},
+		"2009": {
+			"Total": "4911",
+			"Fatal": "231",
+			"Killed": "248",
+			"Injured": "5905"
+		},
+		"2010": {
+			"Total": "4865",
+			"Fatal": "238",
+			"Killed": "257",
+			"Injured": "5893"
+		},
+		"2011": {
+			"Total": "4872",
+			"Fatal": "254",
+			"Killed": "270",
+			"Injured": "5890"
+		},
+		"2012": {
+			"Total": "4999",
+			"Fatal": "263",
+			"Killed": "280",
+			"Injured": "5979"
+		},
+		"lat": "8.506944",
+		"lng": "76.956944"
+	},
+	"Uttarakhand": {
+		"2006": {
+			"Total": "16",
+			"Fatal": "9",
+			"Killed": "13",
+			"Injured": "20"
+		},
+		"2007": {
+			"Total": "27",
+			"Fatal": "12",
+			"Killed": "12",
+			"Injured": "27"
+		},
+		"2008": {
+			"Total": "21",
+			"Fatal": "10",
+			"Killed": "14",
+			"Injured": "20"
+		},
+		"2009": {
+			"Total": "29",
+			"Fatal": "13",
+			"Killed": "16",
+			"Injured": "17"
+		},
+		"2010": {
+			"Total": "53",
+			"Fatal": "28",
+			"Killed": "31",
+			"Injured": "61"
+		},
+		"2011": {
+			"Total": "40",
+			"Fatal": "9",
+			"Killed": "10",
+			"Injured": "44"
+		},
+		"2012": {
+			"Total": "12",
+			"Fatal": "7",
+			"Killed": "7",
+			"Injured": "3"
+		},
+		"lat": "30.3255646",
+		"lng": "78.0436813"
+	},
+	"Tripura": {
+		"2006": {
+			"Total": "88",
+			"Fatal": "15",
+			"Killed": "16",
+			"Injured": "118"
+		},
+		"2007": {
+			"Total": "137",
+			"Fatal": "31",
+			"Killed": "36",
+			"Injured": "214"
+		},
+		"2008": {
+			"Total": "111",
+			"Fatal": "22",
+			"Killed": "25",
+			"Injured": "135"
+		},
+		"2009": {
+			"Total": "136",
+			"Fatal": "28",
+			"Killed": "29",
+			"Injured": "211"
+		},
+		"2010": {
+			"Total": "128",
+			"Fatal": "30",
+			"Killed": "31",
+			"Injured": "163"
+		},
+		"2011": {
+			"Total": "116",
+			"Fatal": "38",
+			"Killed": "38",
+			"Injured": "152"
+		},
+		"2012": {
+			"Total": "129",
+			"Fatal": "28",
+			"Killed": "30",
+			"Injured": "161"
+		},
+		"lat": "23.836389",
+		"lng": "91.275"
+	},
+	"Puducherry": {
+		"2006": {
+			"Total": "90",
+			"Fatal": "18",
+			"Killed": "18",
+			"Injured": "102"
+		},
+		"2007": {
+			"Total": "41",
+			"Fatal": "3",
+			"Killed": "3",
+			"Injured": "62"
+		},
+		"2008": {
+			"Total": "122",
+			"Fatal": "4",
+			"Killed": "4",
+			"Injured": "159"
+		},
+		"2009": {
+			"Total": "63",
+			"Fatal": "2",
+			"Killed": "2",
+			"Injured": "70"
+		},
+		"2010": {
+			"Total": "89",
+			"Fatal": "10",
+			"Killed": "11",
+			"Injured": "96"
+		},
+		"2011": {
+			"Total": "44",
+			"Fatal": "3",
+			"Killed": "3",
+			"Injured": "52"
+		},
+		"2012": {
+			"Total": "18",
+			"Fatal": "0",
+			"Killed": "0",
+			"Injured": "25"
+		},
+		"lat": "11.948880",
+		"lng": "79.712141"
+	},
+	"Mizoram": {
+		"2006": {
+			"Total": "6",
+			"Fatal": "5",
+			"Killed": "7",
+			"Injured": "10"
+		},
+		"2007": {
+			"Total": "5",
+			"Fatal": "3",
+			"Killed": "4",
+			"Injured": "4"
+		},
+		"2008": {
+			"Total": "5",
+			"Fatal": "2",
+			"Killed": "2",
+			"Injured": "6"
+		},
+		"2009": {
+			"Total": "3",
+			"Fatal": "1",
+			"Killed": "2",
+			"Injured": "8"
+		},
+		"2010": {
+			"Total": "5",
+			"Fatal": "0",
+			"Killed": "0",
+			"Injured": "20"
+		},
+		"2011": {
+			"Total": "2",
+			"Fatal": "1",
+			"Killed": "1",
+			"Injured": "7"
+		},
+		"2012": {
+			"Total": "7",
+			"Fatal": "5",
+			"Killed": "5",
+			"Injured": "7"
+		},
+		"lat": "23.724444",
+		"lng": "92.7175"
+	},
+	"Manipur": {
+		"2006": {
+			"Total": "12",
+			"Fatal": "2",
+			"Killed": "2",
+			"Injured": "13"
+		},
+		"2007": {
+			"Total": "19",
+			"Fatal": "4",
+			"Killed": "4",
+			"Injured": "26"
+		},
+		"2008": {
+			"Total": "25",
+			"Fatal": "3",
+			"Killed": "3",
+			"Injured": "55"
+		},
+		"2009": {
+			"Total": "58",
+			"Fatal": "4",
+			"Killed": "4",
+			"Injured": "127"
+		},
+		"2010": {
+			"Total": "36",
+			"Fatal": "6",
+			"Killed": "6",
+			"Injured": "79"
+		},
+		"2011": {
+			"Total": "52",
+			"Fatal": "7",
+			"Killed": "7",
+			"Injured": "88"
+		},
+		"2012": {
+			"Total": "52",
+			"Fatal": "7",
+			"Killed": "7",
+			"Injured": "108"
+		},
+		"lat": "24.816667",
+		"lng": "93.95"
+	}
+}

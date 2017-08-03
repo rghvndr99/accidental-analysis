@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Park Map Brisbane"
+    content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<title>Accidental Analysis</title>
+  <link rel="stylesheet" href="css/base.css">
+      <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+</head>
+<body ng-app="map-app" ng-controller="mapCtrl">
+    <div class="container-fluid">
+    <!--filter section-->
+    <div class="row mrgn15">
+        <div class="col-md-3">
+            <label>Type Of Accident</label>
+        </div>   
+        <div class="col-md-9"> 
+            <!--angular chk data-->
+            <div ng-repeat="obj in chkData">
+                <div class="col-md-3 col-sm-3">
+                <label for="{{obj.lblFor}}" class="btn {{obj.lblClass}}">{{obj.chkAccType}} <input type="checkbox" acc-type="{{obj.chkAccType}}" id="{{obj.lblFor}}" class="badgebox chkType" ng-click="checkUncheck(obj.chkAccType)" ng-checked='obj.isChecked=="true"'><span class="badge">&check;</span></label>
+              </div>
+            </div>                 
+        </div>
+    </div>
+    <div class="row mrgn15">
+        <div class="col-md-3">
+            <label>Time Filter</label>
+        </div>
+        <div class="col-md-9">
+                <intup type="text" id="rangeslider"  class="rangeslider" name="range" />
+        </div> 
+    </div>
+    <!--data section-->
+    <div class="row mrgn15">        
+        <div class="col-md-12">
+            <div id="map-canvas">
+            </div>
+        </div>
+    </div>
+    <div class="row mrgn15">
+         <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Yearly Data Distribution</h4>
+        </div>
+        <div class="modal-body">
+         <div id="container" style="height:100%;width:100%;"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                   
+    </div>
+    </div> 
+    <script src="dest/lib.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="js/ion.rangeSlider.js"></script>    
+    <script src="js/controller/app.js" type="text/javascript"></script>
+    <script src="js/service/readData.js" type="text/javascript"></script>
+    </body>
+</html>
