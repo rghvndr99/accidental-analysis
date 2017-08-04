@@ -1,5 +1,6 @@
 # accidental-analysis
-### Introduction
+
+ ### Introduction
 This application is used for the analysis of accidents in india.
 ### Technology used
 * angularjs
@@ -13,7 +14,8 @@ This application is used for the analysis of accidents in india.
 ### How to start
 
 1. clone this repository 
-  run the following command 
+
+      run the following command 
       $ git clone https://github.com/rghvndr99/accidental-analysis.git
 
 1. Navigate to 'accidental-analysis'
@@ -33,3 +35,11 @@ This application is used for the analysis of accidents in india.
 1. start application
   * type node server.js in command promp
   *   go to brower and type localhost:8080
+
+  
+
+
+
+
+
+
