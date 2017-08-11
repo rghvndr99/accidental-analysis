@@ -11,13 +11,44 @@
 </head>
 <body ng-app="map-app" ng-controller="mapCtrl">
     <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+            <label>Type Of Accident</label>
+            </div>   
+           <div class="col-md-12"> 
+            <!--angular chk data-->
+            <div ng-repeat="obj in chkData" >
+                <div class="col-md-6 col-sm-3 chkContainer">
+                <label for="{{obj.lblFor}}" class="btn {{obj.lblClass}}">{{obj.chkAccType}} <input type="checkbox" acc-type="{{obj.chkAccType}}" id="{{obj.lblFor}}" class="badgebox chkType" ng-click="checkUncheck(obj.chkAccType)" ng-checked='obj.isChecked=="true"'><span class="badge">&check;</span></label>
+              </div>
+            </div>                 
+            </div>
+            </div>
+            <!--time slider -->
+            <hr/>
+            <div class="row">
+                <div class="col-md-12">
+            <label>Time Filter</label>
+        </div>
+        <div class="col-md-12">
+                <intup type="text" id="rangeslider"  class="rangeslider" name="range" />
+        </div>
+            </div>
+        </div>
+        <div class="col-md-9 mrgn15">
+             <div id="map-canvas">
+            </div>
+        </div>
+    </div>
     <!--filter section-->
-    <div class="row mrgn15">
+    <!--<div class="row mrgn15">
         <div class="col-md-3">
             <label>Type Of Accident</label>
         </div>   
         <div class="col-md-9"> 
-            <!--angular chk data-->
+            
             <div ng-repeat="obj in chkData">
                 <div class="col-md-3 col-sm-3">
                 <label for="{{obj.lblFor}}" class="btn {{obj.lblClass}}">{{obj.chkAccType}} <input type="checkbox" acc-type="{{obj.chkAccType}}" id="{{obj.lblFor}}" class="badgebox chkType" ng-click="checkUncheck(obj.chkAccType)" ng-checked='obj.isChecked=="true"'><span class="badge">&check;</span></label>
@@ -25,7 +56,7 @@
             </div>                 
         </div>
     </div>
-    <div class="row mrgn15">
+    --><!--<div class="row mrgn15">
         <div class="col-md-3">
             <label>Time Filter</label>
         </div>
@@ -33,14 +64,14 @@
                 <intup type="text" id="rangeslider"  class="rangeslider" name="range" />
         </div> 
     </div>
-    <!--data section-->
-    <div class="row mrgn15">        
+    --><!--data section-->
+    <!--<div class="row mrgn15">        
         <div class="col-md-12">
-            <div id="map-canvas">
+            <div id="map-canvas1">
             </div>
         </div>
     </div>
-    <div class="row mrgn15">
+    --><div class="row mrgn15">
          <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">

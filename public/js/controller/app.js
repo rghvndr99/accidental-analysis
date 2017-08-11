@@ -40,6 +40,26 @@ app.controller('mapCtrl', ['$scope', 'fetchData', function($scope, fetchData) {
         }
         initialize();
     }
+    $scope.colorseriesmapping={
+                    "Injured":{
+                        "color":"blue",
+                        "image":"blue.png"
+                    },
+                     "Total":{
+                        "color":"green",
+                        "image":"green.png"
+                    },
+     
+                     "Fatal":{
+                        "color":"#FF4500",
+                        "image":"orange.png"
+                    },
+                    "Killed":{
+                        "color":"red",
+                        "image":"red.png"
+                    }
+     
+                };
     google.maps.event.addDomListener(window, 'load', initialize);
     var time = [2006, 2007, 2008, 2009, 2010, 2011, 2012];
     var sliderElement=angular.element(document.getElementById("rangeslider"));
@@ -55,11 +75,18 @@ app.controller('mapCtrl', ['$scope', 'fetchData', function($scope, fetchData) {
         }).data("ionRangeSlider");  
        
     function initialize() {
-        fetchData.then(function(data) {
-            let mapOptions = {
-                zoom: 4,
+        var promiseArr=[];
+        promiseArr.push(fetchData.callData('public/json/stateboundry.json'),fetchData.callData('public/json/city-latlong.json'));       Promise.all(promiseArr).then(function(totalData){
+            let data=totalData[1];
+            let stateBoundrydata=totalData[0];
+            generateMapUI(data,stateBoundrydata);
+        });
+        function generateMapUI(data,stateBoundrydata) {
+                    let mapOptions = {
+                zoom: 5,
                 center: new google.maps.LatLng(20.5937, 78.9629)
             };
+            let seriesnameDominating=$scope.colorseriesmapping;
             let infowindow = new google.maps.InfoWindow({}),
                 map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions),
                 totalNo = 0;
@@ -94,11 +121,14 @@ app.controller('mapCtrl', ['$scope', 'fetchData', function($scope, fetchData) {
                     zoom: 6,
                     center: latLng
                 };
+                let dominating_series=findMaxSeriesname(),
+                    image=seriesnameDominating[dominating_series]['image'],
+                    color=seriesnameDominating[dominating_series]['color'];
                 let marker = new google.maps.Marker({
                     position: latLng,
                     map: map,
                     title: '',
-                    icon: 'img/green.png'
+                    icon: 'img/'+image
                 });
 
                 google.maps.event.addListener(marker, 'click', function initialize() {
@@ -151,7 +181,36 @@ app.controller('mapCtrl', ['$scope', 'fetchData', function($scope, fetchData) {
                         series: seriesNm
                     });
                 }
+            function findMaxSeriesname(){
+                let seriesNm=[];                
+                for (let seriesName in seriesNameData) {
+                        var seriesNameData1 = {};
+                        seriesNameData1['name'] = seriesName;
+                        seriesNameData1['data'] = seriesNameData[seriesName].reduce(function(a,b){return a+b});
+                        seriesNm.push(seriesNameData1);
+                }
+              let series='Total',maxNo=0; 
+              for(let index=0;index<seriesNm.length;index++){
+                  if(seriesNm[index]['data']>maxNo){
+                      maxNo=seriesNm[index]['data'];
+                      series=seriesNm[index]['name'];
+                  }
+              }
+            return series;
             }
-        });
+                var triangleCoords =stateBoundrydata[key];
+                         // Construct the polygon.
+                var bermudaTriangle = new google.maps.Polygon({
+                  paths: triangleCoords,
+                  strokeColor: color,
+                  strokeOpacity: 0.9,
+                  strokeWeight: 2,
+                  fillColor: color,
+                  fillOpacity: 0.1
+                });
+                bermudaTriangle.setMap(map);
+
+            }
+            }
     }
 }]);

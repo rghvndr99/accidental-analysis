@@ -2,6 +2,7 @@ var express=require("express");
 var app=express();
 var bodyParser=require("body-parser");
 var fs=require("fs");
+var glob = require("glob");
 
 app.use(express.static(__dirname+'/public'));
 app.use(bodyParser.json()); 
@@ -24,4 +25,5 @@ function readFile(path){
        });
     })     
  }
+
 console.log('server started on port no 8080');

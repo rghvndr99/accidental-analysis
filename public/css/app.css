@@ -2,7 +2,7 @@
     margin-top: 10px;
 }
 #map-canvas {
-    min-height: 500px;
+    min-height: 700px;
     height: 100%;
 }
 .left{
@@ -123,4 +123,11 @@ div.dm-wrapperDiv {
 }
 .rangeslider{
     display: none;
+}
+.btn-info{
+    background-color: #51a247 !important;
+    border-color: #51a247 !important;
+}
+.chkContainer{
+    margin-bottom: 5px;
 }

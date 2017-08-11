@@ -3,7 +3,7 @@
 }
 
 #map-canvas {
-  min-height: 500px;
+  min-height: 700px;
   height: 100%;
 }
 
@@ -135,6 +135,15 @@ div#payloadMeterDiv {
 
 .rangeslider {
   display: none;
+}
+
+.btn-info {
+  background-color: #51a247 !important;
+  border-color: #51a247 !important;
+}
+
+.chkContainer {
+  margin-bottom: 5px;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
