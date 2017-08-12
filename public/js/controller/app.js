@@ -6,28 +6,28 @@ app.controller('mapCtrl', ['$scope', 'fetchData', function($scope, fetchData) {
                     "lblFor":"acc-total",
                     "lblClass":"btn-info",
                     "chkAccType":"Total",
-                    "isChecked":"true"
+                    "isChecked":"false"
                 },
                 {
                     "lblFor":"acc-injured",
                     "lblClass":"btn-primary",
                     "chkAccType":"Injured",
-                    "isChecked":"false"
+                    "isChecked":"true"
                 },
                 {
                 "lblFor":"acc-fatal",
                 "lblClass":"btn-warning",
                 "chkAccType":"Fatal",
-                "isChecked":"false"
+                "isChecked":"true"
                },
                 {
                 "lblFor":"acc-killed",
                 "lblClass":"btn-danger",
                 "chkAccType":"Killed",
-                "isChecked":"false"
+                "isChecked":"true"
                }
             ];
-    $scope.checkedCheckBoxes=[$scope.chkData[0].chkAccType];    
+    $scope.checkedCheckBoxes=[$scope.chkData[1].chkAccType,$scope.chkData[2].chkAccType,$scope.chkData[3].chkAccType];    
     $scope.checkUncheck=function(item){
         if($scope.checkedCheckBoxes.length>0 &&$scope.checkedCheckBoxes.indexOf(item)==-1){
             $scope.checkedCheckBoxes.push(item);

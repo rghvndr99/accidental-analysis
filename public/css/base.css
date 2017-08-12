@@ -3,8 +3,9 @@
 }
 
 #map-canvas {
-  min-height: 700px;
+  min-height: 600px;
   height: 100%;
+  overflow: scroll;
 }
 
 .left {
@@ -144,6 +145,13 @@ div#payloadMeterDiv {
 
 .chkContainer {
   margin-bottom: 5px;
+}
+
+.font-setting {
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+  color: #616151;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 

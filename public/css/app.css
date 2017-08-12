@@ -2,8 +2,9 @@
     margin-top: 10px;
 }
 #map-canvas {
-    min-height: 700px;
+    min-height: 600px;
     height: 100%;
+    overflow: scroll;
 }
 .left{
     float:left;
@@ -130,4 +131,10 @@ div.dm-wrapperDiv {
 }
 .chkContainer{
     margin-bottom: 5px;
+}
+.font-setting{
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    color: #616151;
 }
