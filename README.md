@@ -50,7 +50,7 @@ Map view:
     ![graphical view](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/range%20filter%20graphican%20view1.PNG)
 
 Note: 
-For code-walk through,please click [https://github.com/rghvndr99/accidental-analysis/wiki](here) 
+For code-walk through,please click [here](https://github.com/rghvndr99/accidental-analysis/wiki) 
 
   
 
