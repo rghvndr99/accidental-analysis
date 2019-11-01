@@ -13,7 +13,7 @@
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
     "express": "^4.15.3",
-    "highcharts": "^5.0.12",
+    "highcharts": "^7.2.1",
     "highcharts-more": "^0.1.2",
     "ion-rangeslider": "^2.2.0",
     "jquery": "~3.x.x"
