@@ -1,56 +1,42 @@
-**# Welcome to the accidental-analysis **
- ### Introduction
-This application is used for the analysis of accidents in india.
-### Technology used
-* angularjs
-* jquery
-* html5
-* css3
-* node
-* googlemap
-* gulp
+**# Welcome to the accidental-analysis wiki!**  
 
-### How to start
+1. **setting gulp file**   
+    Gulp is a javascript task runner that lets you automate tasks such as Bundling and minifying libraries and stylesheets.  
+Please see the attached screenshot for gulp.js setting  
+![gulp setup](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/gulp%20code.PNG) 
+ To run this gulp file, run this commond in command prompt 'gulp'.   
 
-1. clone this repository 
-
-  run the following command 
-
-      $ git clone https://github.com/rghvndr99/accidental-analysis.git
-
-1. Navigate to 'accidental-analysis'
-
-1. install node 
-   *  for windows, download from [here](https://nodejs.org/en/download/)
-   *     for linux, run following commands
-                   *  sudo apt-get install nodejs
-                   *  sudo apt-get install npm
-
-1. install dependencies
  
-    run this command
+1. **setting package.json**  
+   It is used for including the list of dependencies to install from npm.  
+   Following commands are used for package.json:  
+   **npm init:**  it makes package.json file in your project.  
+    **npm install 'any library/module' --dev  -save :** this will save library into package.json as dev-dependency. If '--dev' is not given,then it will be saved as dependency, not as dev-dependency.  
+ 
+  For its structure, see the attached screenshot: 
+ ![](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/package.PNG)
+ 
+3. **setting server**
+  I am using nodejs and express as server.   
+![](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/nodejs%20start%20app.PNG)
+  
+4. **setting html/UI**
+*     Generating checkboxes:
+      script:
+      html:
+*    Checkbox check/uncheck event:
+*    Reading Data from server:
+      controller code:
+      Factory code:
+      Nodejs code:
+*   Range slider:
+    script:
+   html:
+*  Generate Map:
+*  Mapping state boundary:
+*  Generating Chart:
 
-                 npm install
-
-1. start application
-  * type **node server** in command prompt.
-  *   go to brower and type **localhost:8080**
-
-5. Screenshots  
-   **when all types of accidents are being investigated**  
-   Map view:
-   ![map view](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/all%20type%20map%20view.PNG)
-   Graphical view:
-    ![graphical view](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/all%20type%20graph%20view.PNG)
-
-**when certain types of accidents are being investigated**  
-Map view:
-   ![Map view](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/range%20filter%20graphical%20view.PNG)
-   Graphical view:
-    ![graphical view](https://github.com/rghvndr99/accidental-analysis/blob/master/public/wiki-image/range%20filter%20graphican%20view1.PNG)
-
-Note: 
-For code-walk through,please click [here](https://github.com/rghvndr99/accidental-analysis/wiki) 
+  
 
   
 
